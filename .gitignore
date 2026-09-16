@@ -1,0 +1,17 @@
+# Local-only private knowledge
+private/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor and local environment files
+.vscode/
+.idea/
+.env
+.env.*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
