@@ -34,11 +34,12 @@ templates/    Lightweight templates for new notes.
 private/      Local-only private notes. Not committed to Git.
 ```
 
-## Initial Domains
+## Domains
 
 - [AI](knowledge/ai/README.md)
 - [Software Engineering](knowledge/software-engineering/README.md)
 - [Business](knowledge/business/README.md)
+- [Automobile Engineering](knowledge/automobile-engineering/README.md)
 - [Cross-Domain](knowledge/cross-domain/README.md)
 
 ## Naming

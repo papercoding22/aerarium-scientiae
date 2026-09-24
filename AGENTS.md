@@ -109,6 +109,8 @@ Do not remove these labels unless the note has been updated with better evidence
 
 ## Git Safety
 
+- Git username: `papercoding22`
+- Git email: `john.ly997@gmail.com`
 - Do not commit `private/`.
 - Do not overwrite unrelated user changes.
 - Keep edits narrow and easy to review.

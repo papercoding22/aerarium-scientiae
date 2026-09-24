@@ -13,4 +13,5 @@ Each domain has:
 - [AI](ai/README.md)
 - [Software Engineering](software-engineering/README.md)
 - [Business](business/README.md)
+- [Automobile Engineering](automobile-engineering/README.md)
 - [Cross-Domain](cross-domain/README.md)
