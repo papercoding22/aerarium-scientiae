@@ -90,6 +90,8 @@ Use usefulness ratings as numbers:
 
 ## Note Creation
 
+Include a linked `## Table Of Contents` near the top of every note you create. List the note's sections and subsections using normal Markdown heading links. Keep the contents aligned with the final headings when editing a note; exclude the title, the contents heading itself, and headings inside code examples.
+
 When adding a concept note:
 
 1. Place it under the best domain.

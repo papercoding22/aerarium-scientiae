@@ -58,7 +58,8 @@ flowchart LR
 
 ## Key Concepts
 
-- Add concept links here.
+- [Maintenance Decisions](concepts/maintenance-decisions.md)
+- [Engine Oil And Filter Care](concepts/engine-oil-and-filter-care.md)
 
 ## Applications
 

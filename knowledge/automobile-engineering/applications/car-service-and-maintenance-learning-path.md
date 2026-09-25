@@ -6,6 +6,18 @@ domain: automobile-engineering
 
 # Car Service And Maintenance Learning Path
 
+## Table Of Contents
+
+- [Summary](#summary)
+- [Context](#context)
+- [How To Use](#how-to-use)
+- [Learning Path](#learning-path)
+- [Practical Outputs To Build](#practical-outputs-to-build)
+- [Current Learning Checkpoint](#current-learning-checkpoint)
+- [Related Learning](#related-learning)
+- [Risks And Limits](#risks-and-limits)
+- [Sources](#sources)
+
 ## Summary
 
 Learn to care for a car as an owner while understanding the engineering behind maintenance decisions. Connect practical checks and servicing with how components work, wear, and deteriorate.
@@ -39,10 +51,10 @@ Exact vehicle specifications, service requirements, and dates still need confirm
 
 | Stage | What to learn | Engineering behind it | Practical checkpoint |
 | --- | --- | --- | --- |
-| **1. Understand maintenance decisions** | Inspection, servicing, repair, and replacement; time-, mileage-, and condition-based maintenance | Wear, aging, contamination, and the difference between a symptom and its cause | Explain why two cars with the same mileage may need different maintenance |
+| **[1. Understand maintenance decisions](../concepts/maintenance-decisions.md)** | Inspection, servicing, repair, and replacement; time-, mileage-, and condition-based maintenance | Wear, aging, contamination, and the difference between a symptom and its cause | Explain why two cars with the same mileage may need different maintenance |
 | **2. Perform basic owner checks** | Tyres, lights, wipers, visible leaks, dashboard messages, and fluid checks allowed by the manual | Pressure, visibility, fluid levels, and how warning systems detect problems | Follow a simple inspection checklist and describe findings clearly |
 | **3. Understand tyres, brakes, and suspension** | Tyre pressure, tread and damage; brake pads, discs and fluid; alignment, balancing, and suspension inspection | Grip, friction, heat, hydraulic pressure, damping, and wheel geometry | Read a tyre or brake inspection report and understand why a measurement matters |
-| **4. Understand engine care** | Engine oil and filters, air filtration, cooling, spark plugs, belts and hoses where applicable | Lubrication, combustion, heat transfer, filtration, and material aging | Explain each item on an engine-service quote and identify the required fluid specification |
+| **4. Understand engine care** | Engine oil and filters, air filtration, cooling, spark plugs, belts and hoses where applicable. Start with [Engine Oil And Filter Care](../concepts/engine-oil-and-filter-care.md). | Lubrication, combustion, heat transfer, filtration, and material aging | Explain each item on an engine-service quote and identify the required fluid specification |
 | **5. Understand electrical systems and diagnosis** | The 12-volt battery, charging system, sensors, warning lights, and basic diagnostic codes | Electrical supply, measurement, and how a control unit detects an abnormal condition | Describe a fault accurately and explain why a fault code alone does not prove which part needs replacing |
 | **6. Understand transmission and drivetrain care** | Gearboxes, differentials, shafts, seals, and four-wheel-drive components where fitted | Torque transfer, gears, lubrication, and differences in wheel speed | Identify each car's drivetrain components and find their inspection or service requirements |
 | **7. Manage servicing and long-term ownership** | Manufacturer schedules, driving conditions, service reminders, quotes, records, warranty requirements, and budgeting | Preventive maintenance and decisions based on evidence | Maintain a separate service plan for each car and explain the reason for every planned task |
@@ -61,11 +73,13 @@ These are planned learning outputs; they have not been created yet.
 
 For the BMW, use its applicable service information and reminders. For the Jimny, begin with the handover documents, then cover proper four-wheel-drive use and maintenance considerations for its actual driving conditions.
 
-## Next Lesson
+## Current Learning Checkpoint
 
-**How do car parts deteriorate, and how do I decide whether to inspect, service, repair, or replace something?**
+Current focus: Stage 4. The introductory lesson is saved in [Engine Oil And Filter Care](../concepts/engine-oil-and-filter-care.md). It covers lubrication, the oil filter's role, and the difference between oil level and oil condition. Understanding has not yet been checked.
 
-Start with Stage 1. Use this foundation to understand the reasons behind a maintenance checklist.
+Next: discuss the open oil-level practice question in that note, then learn how to read an oil specification. Air filtration, spark plugs, cooling, belts, and hoses remain for later lessons in Stage 4.
+
+Stage 1 remains unfinished. Its introductory lesson is saved in [Maintenance Decisions](../concepts/maintenance-decisions.md); the wiper practice question and deeper discussion of time-, mileage-, and condition-based decisions remain open.
 
 ## Related Learning
 
