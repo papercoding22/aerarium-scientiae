@@ -40,6 +40,7 @@ private/      Local-only private notes. Not committed to Git.
 - [Software Engineering](knowledge/software-engineering/README.md)
 - [Business](knowledge/business/README.md)
 - [Automobile Engineering](knowledge/automobile-engineering/README.md)
+- [Personal Finance](knowledge/personal-finance/README.md)
 - [Cross-Domain](knowledge/cross-domain/README.md)
 
 ## Agent Skills

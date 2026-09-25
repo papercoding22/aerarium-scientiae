@@ -14,4 +14,5 @@ Each domain has:
 - [Software Engineering](software-engineering/README.md)
 - [Business](business/README.md)
 - [Automobile Engineering](automobile-engineering/README.md)
+- [Personal Finance](personal-finance/README.md)
 - [Cross-Domain](cross-domain/README.md)
