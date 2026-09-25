@@ -8,6 +8,8 @@ Keep one copy of each skill and use it with Codex and Claude Code in this reposi
 .claude/skills/                 Shared skill files; edit here.
   manage-project-skills/
     SKILL.md
+  learning-tutor/
+    SKILL.md
 .agents/skills -> ../.claude/skills
                                Codex reads the same directory.
 templates/agent-skill.md        Starter for a new skill.
@@ -22,6 +24,7 @@ The relative symlink works when the repository moves. Preserve it as a symlink w
 | Skill | Purpose |
 | --- | --- |
 | [manage-project-skills](skills/manage-project-skills/SKILL.md) | Create, update, or remove shared project skills. |
+| [learning-tutor](skills/learning-tutor/SKILL.md) | Find a starting point, plan learning, and study through an adaptive conversation. |
 
 ## Use a Skill
 
@@ -31,6 +34,8 @@ Open this project in Codex or Claude Code, then include the skill name in your r
 | --- | --- |
 | Codex | `$manage-project-skills Create a skill for turning an article into a source note.` |
 | Claude Code | `/manage-project-skills Create a skill for turning an article into a source note.` |
+| Codex | `$learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
+| Claude Code | `/learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
 
 Both tools can also select a skill when its description matches your request. If a new or changed skill does not appear, restart the session from this repository.
 

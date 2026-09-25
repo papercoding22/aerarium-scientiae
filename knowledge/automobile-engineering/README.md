@@ -62,7 +62,7 @@ flowchart LR
 
 ## Applications
 
-- Add application links here.
+- [Car Service And Maintenance Learning Path](applications/car-service-and-maintenance-learning-path.md)
 
 ## Important Sources
 
