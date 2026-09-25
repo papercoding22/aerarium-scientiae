@@ -95,6 +95,15 @@ When adding an application note:
 2. Use `templates/application-note.md`.
 3. Link related concept notes when useful.
 
+## Project Skills
+
+- Keep shared Codex and Claude Code skills in `.claude/skills/<skill-name>/SKILL.md`.
+- `.agents/skills` is a relative symlink to `../.claude/skills`. Preserve this link so new skills reach both tools automatically.
+- Create and edit skills only in `.claude/skills/`; do not maintain separate copies for each tool.
+- Use [templates/agent-skill.md](templates/agent-skill.md). Skill frontmatter starts with `name` and `description`; the note metadata rules apply to knowledge notes.
+- Keep shared instructions usable by both tools. Add tool-specific settings only when needed.
+- Follow the [skill management guide](.claude/README.md) when adding, updating, or removing a skill.
+
 ## Uncertainty Markers
 
 Use direct labels when needed:

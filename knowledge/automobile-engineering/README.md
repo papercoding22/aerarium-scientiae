@@ -62,9 +62,7 @@ flowchart LR
 
 ## Applications
 
-- [BMW 330i LCI M Sport Upgrade Research Plan](applications/bmw-330i-lci-upgrade-research-plan.md)
-- [BMW 330i LCI Vehicle Baseline](applications/bmw-330i-lci-vehicle-baseline.md)
-- [BMW 330i LCI Upgrade Candidate Template](applications/bmw-330i-lci-upgrade-candidate-template.md)
+- Add application links here.
 
 ## Important Sources
 

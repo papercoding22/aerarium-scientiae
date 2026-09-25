@@ -42,6 +42,12 @@ private/      Local-only private notes. Not committed to Git.
 - [Automobile Engineering](knowledge/automobile-engineering/README.md)
 - [Cross-Domain](knowledge/cross-domain/README.md)
 
+## Agent Skills
+
+Project skills work with Codex and Claude Code. Edit each skill once in `.claude/skills/`; Codex reads the same files through `.agents/skills`.
+
+See the [skill management guide](.claude/README.md) for available skills, examples, and how to add your own.
+
 ## Naming
 
 Use lowercase kebab-case filenames:
