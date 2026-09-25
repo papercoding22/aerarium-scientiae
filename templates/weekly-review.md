@@ -18,7 +18,7 @@ focus:
 - [ ] Improve messy notes
 - [ ] Split broad notes into atomic notes
 - [ ] Update confidence levels
-- [ ] Add missing examples where useful
+- [ ] Add concrete examples right after difficult explanations; remove forced or repetitive examples
 - [ ] Add visual representations when possible
 
 ## Connect Notes

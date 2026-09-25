@@ -11,7 +11,7 @@ Optimize for high information value with low maintenance cost.
 ## Core Rules
 
 - Use simple English.
-- Prefer clear examples and practical scenarios.
+- Use examples and practical scenarios when they improve understanding.
 - Keep notes atomic: one concept note per single idea.
 - Preserve uncertainty instead of overstating confidence.
 - Do not invent sources, facts, owners, dates, or conclusions.
@@ -29,6 +29,23 @@ Optimize for high information value with low maintenance cost.
 - Avoid sounding robotic, overly formal, or like a textbook.
 - Use analogies when they help explain the idea.
 - Build understanding step by step.
+
+### First-Principles Explanation
+
+- Before explaining a concept, statement, or fact, consider what the reader needs to understand it. Abstract, complex, technical, or unfamiliar ideas often need context first.
+- When context is needed, build a mental model before giving a full definition. Start with the problem or need that makes the concept useful.
+- For straightforward, self-explanatory ideas, explain them directly. Do not force extra steps or examples.
+
+When more context is needed, use this progression:
+
+1. Context: Explain the problem, need, or situation behind the concept and why it matters. Do not invent a historical origin.
+2. Foundation: Identify the basic principles, assumptions, or building blocks the reader needs. Keep assumptions distinct from established facts.
+3. First Principles: Explain the root idea, why it works, and what must be true for it to work.
+4. Derivation: Show step by step how the concept follows from those foundations. Introduce its definition once the reasoning gives it meaning.
+5. Concrete Example: Immediately follow the explanation with a simple, realistic example connected to the concept. Show how it works in practice, rather than repeating the definition in different words.
+6. Mental Model And Summary: End with a simple way to remember and reason about the concept, plus a concise key takeaway. Combine these when they would repeat each other.
+
+Keep the depth proportional to the reader's needs. Combine or skip steps that add no value. The goal is deeper, more intuitive understanding that the reader can reason from independently, not a longer answer or a fixed set of headings for every response.
 
 ## Folder Rules
 

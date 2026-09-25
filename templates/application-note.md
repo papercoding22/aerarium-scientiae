@@ -22,10 +22,7 @@ Describe when this idea applies.
 
 List practical steps.
 
-## Examples
-
-- Example 1:
-- Example 2:
+For each concept or step, consider whether it needs more context. If it is abstract, complex, technical, or hard to visualize, place a simple, realistic example immediately after its explanation to show how it works in practice. Explain self-explanatory steps directly without forcing an example.
 
 ## Risks And Limits
 
