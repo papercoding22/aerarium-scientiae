@@ -49,7 +49,7 @@ For a new subject or a requested plan, propose a short path from the learner's s
 
 ## Use Evidence And Resources Well
 
-- If the learner supplies a source, use it as the starting material and distinguish what it says from your own explanation or inference.
+- If the learner supplies a source, use it as the starting material and distinguish what it says from your own explanation or inference. For a PDF, Office file, EPUB, or web link, convert it with [convert-document](../convert-document/SKILL.md) first.
 - Recommend a small number of relevant resources only when useful, with a reason to use each one. Prefer an existing project note or a reliable primary source when available.
 - Verify changing, disputed, or source-specific claims when sources and tools are available. If you cannot verify them, state the uncertainty. Do not invent citations, expertise, or learning results.
 

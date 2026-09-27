@@ -107,6 +107,7 @@ When adding a source note:
 2. Use `templates/source-note.md`.
 3. Use filenames like `deep-work-cal-newport.md`.
 4. Extract important ideas into concept notes when useful.
+5. To read a PDF, Office file, EPUB, web page, or YouTube link, convert it first with the `convert-document` skill (Microsoft MarkItDown).
 
 When adding an application note:
 

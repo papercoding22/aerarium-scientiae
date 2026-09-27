@@ -15,3 +15,6 @@ Thumbs.db
 *.tmp
 *.temp
 *.bak
+
+# Converted document text for reading and search; rebuild with the convert-document skill
+.cache/

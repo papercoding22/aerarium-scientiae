@@ -17,6 +17,9 @@ Keep one copy of each skill and use it with Codex and Claude Code in this reposi
   setup-learning-domain/
     SKILL.md
     scripts/ensure_domain.py
+  convert-document/
+    SKILL.md
+    scripts/to_markdown.py
 .agents/skills -> ../.claude/skills
                                Codex reads the same directory.
 templates/agent-skill.md        Starter for a new skill.
@@ -35,6 +38,7 @@ The relative symlink works when the repository moves. Preserve it as a symlink w
 | [illustrate-note](skills/illustrate-note/SKILL.md) | Create a concept explainer, mechanism diagram, or mind map and add it to a note. |
 | [add-note-image](skills/add-note-image/SKILL.md) | Add an existing image, screenshot, or video frame to the right section of a note. |
 | [setup-learning-domain](skills/setup-learning-domain/SKILL.md) | Find or create the `knowledge/` domain folders for a new learning topic. |
+| [convert-document](skills/convert-document/SKILL.md) | Convert PDFs, Office files, EPUBs, web pages, and YouTube links to Markdown with MarkItDown. |
 
 ## Use a Skill
 
@@ -52,6 +56,8 @@ Open this project in Codex or Claude Code, then include the skill name in your r
 | Claude Code | `/add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
 | Codex | `$setup-learning-domain I want to start learning cooking.` |
 | Claude Code | `/setup-learning-domain I want to start learning cooking.` |
+| Codex | `$convert-document ~/Downloads/owners-manual.pdf and make a source note.` |
+| Claude Code | `/convert-document ~/Downloads/owners-manual.pdf and make a source note.` |
 
 Both tools can also select a skill when its description matches your request. If a new or changed skill does not appear, restart the session from this repository.
 
