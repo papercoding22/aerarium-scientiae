@@ -143,3 +143,16 @@ Do not remove these labels unless the note has been updated with better evidence
 - Do not overwrite unrelated user changes.
 - Keep edits narrow and easy to review.
 - Prefer adding or improving focused notes over reorganizing the whole repo.
+
+## Commit And Push
+
+This is standing permission. After you add, change, move, or delete files for a request, commit and push right away. Do not wait to be asked. Skip this step only when the user says not to commit, asks for a preview only, or the work is unfinished.
+
+1. Finish the change set for the request first. Make one focused commit per completed request, not one per file.
+2. Run `git diff --check`, plus any checks the task or skill requires.
+3. Stage only the files you changed for this request, by path. Do not use `git add -A` or `git add .`. Include new assets together with the notes that link to them.
+4. Never stage `private/`, secrets, `.env` files, or unrelated user changes. If a file you edited already had uncommitted user changes, ask before committing it.
+5. Write a short, imperative commit message that says what changed, such as `Add engine oil mind map`. Add the attribution trailer your tool requires.
+6. Push the current branch to its upstream with `git push`. Never force-push, rewrite published history, or skip hooks.
+7. If the commit or push fails, stop and report the error. Do not resolve it with force, reset, or a destructive rebase. If the push is rejected because the remote has new commits, tell the user instead of merging on your own.
+8. Report the commit hash and whether the push succeeded.
