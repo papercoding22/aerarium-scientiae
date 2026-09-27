@@ -22,13 +22,13 @@ Read [AGENTS.md](../../../AGENTS.md) and the [skill management guide](../../READ
 3. Create or edit the skill under `.claude/skills/`. Match the folder and frontmatter `name`, using lowercase letters, digits, and single hyphens. Keep the name under 64 characters and avoid `synced`.
 4. Write a specific `description` so either tool can select the skill. Keep shared instructions independent of one tool's command syntax or unavailable integrations. Use `name` and `description` as the initial frontmatter; add tool-specific settings only when needed and preserve existing settings when updating.
 5. Describe only the task-specific workflow. Refer to existing project rules and templates instead of duplicating them. Add scripts or supporting files only when they have a concrete use, and link them from `SKILL.md`.
-6. Update the available-skills table in `.claude/README.md` when the catalog changes.
+6. Update [SKILLS.md](../../../SKILLS.md) when the catalog changes: the Quick Lookup table, the Which Skill When flow and table when the skill fits there, and Bundled Scripts for any new script.
 
 Keep this task within the repository unless the user requests a wider installation. A request to create a skill authorizes writing its instructions; any actions performed by that skill still need to fit the user's task and permissions.
 
 ## Rename or Remove
 
-Rename or remove only the skill the user identifies. For a rename, update the folder, frontmatter name, guide entry, and affected references. For removal, remove its folder and guide entry. Preserve the shared-directory link and unrelated skills.
+Rename or remove only the skill the user identifies. For a rename, update the folder, frontmatter name, `SKILLS.md` entries, and affected references. For removal, remove its folder and `SKILLS.md` entries. Preserve the shared-directory link and unrelated skills.
 
 ## Validate
 

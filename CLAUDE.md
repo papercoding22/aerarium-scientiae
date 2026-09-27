@@ -2,4 +2,4 @@
 
 @AGENTS.md
 
-Shared skills and usage examples are in the [skill management guide](.claude/README.md).
+Shared skills are listed in [SKILLS.md](SKILLS.md). Setup and maintenance are in the [skill management guide](.claude/README.md).

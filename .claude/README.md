@@ -31,14 +31,7 @@ The relative symlink works when the repository moves. Preserve it as a symlink w
 
 ## Available Skills
 
-| Skill | Purpose |
-| --- | --- |
-| [manage-project-skills](skills/manage-project-skills/SKILL.md) | Create, update, or remove shared project skills. |
-| [learning-tutor](skills/learning-tutor/SKILL.md) | Find a starting point, plan learning, and study through an adaptive conversation. |
-| [illustrate-note](skills/illustrate-note/SKILL.md) | Create a concept explainer, mechanism diagram, or mind map and add it to a note. |
-| [add-note-image](skills/add-note-image/SKILL.md) | Add an existing image, screenshot, or video frame to the right section of a note. |
-| [setup-learning-domain](skills/setup-learning-domain/SKILL.md) | Find or create the `knowledge/` domain folders for a new learning topic. |
-| [convert-document](skills/convert-document/SKILL.md) | Convert PDFs, Office files, EPUBs, web pages, and YouTube links to Markdown with MarkItDown. |
+See [SKILLS.md](../SKILLS.md) for the catalog: what each skill does, example requests, when to use which skill, and the scripts they run.
 
 ## Use a Skill
 
@@ -46,18 +39,8 @@ Open this project in Codex or Claude Code, then include the skill name in your r
 
 | Tool | Example |
 | --- | --- |
-| Codex | `$manage-project-skills Create a skill for turning an article into a source note.` |
-| Claude Code | `/manage-project-skills Create a skill for turning an article into a source note.` |
-| Codex | `$learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
-| Claude Code | `/learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
-| Codex | `$illustrate-note Draw how oil circulates through the engine in the engine oil note.` |
-| Claude Code | `/illustrate-note Make a mind map of engine oil and filter care.` |
-| Codex | `$add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
-| Claude Code | `/add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
-| Codex | `$setup-learning-domain I want to start learning cooking.` |
-| Claude Code | `/setup-learning-domain I want to start learning cooking.` |
-| Codex | `$convert-document ~/Downloads/owners-manual.pdf and make a source note.` |
-| Claude Code | `/convert-document ~/Downloads/owners-manual.pdf and make a source note.` |
+| Codex | `$learning-tutor Teach me how databases work.` |
+| Claude Code | `/learning-tutor Teach me how databases work.` |
 
 Both tools can also select a skill when its description matches your request. If a new or changed skill does not appear, restart the session from this repository.
 
@@ -76,7 +59,7 @@ Then:
 2. Write a description that says what the skill does and when to use it.
 3. Keep the workflow focused on one repeatable task, with clear inputs and an expected result.
 4. Add `scripts/`, `references/`, or `assets/` inside the skill only when useful. Link supporting files from `SKILL.md`.
-5. Add a link to the available-skills table above.
+5. Add the skill to [SKILLS.md](../SKILLS.md).
 
 Use standard `name` and `description` frontmatter for shared skills. Tool-specific options and syntax may behave differently across tools; add them only when the workflow needs them.
 
@@ -84,7 +67,7 @@ Use standard `name` and `description` frontmatter for shared skills. Tool-specif
 
 Edit its files under `.claude/skills/`. Both tools read those changes through the shared directory.
 
-When removing a skill, remove only its folder and its link in the table above. Preserve `.agents/skills` for the remaining skills. When renaming a skill, update its folder, frontmatter `name`, and references together.
+When removing a skill, remove only its folder and its entries in [SKILLS.md](../SKILLS.md). Preserve `.agents/skills` for the remaining skills. When renaming a skill, update its folder, frontmatter `name`, and references together.
 
 ## Check the Setup
 
@@ -100,7 +83,7 @@ The first command should print `../.claude/skills`. The second succeeds silently
 
 Check each skill's YAML frontmatter and local links. Try a realistic request in each tool before relying on its behavior; matching file paths alone does not test invocation.
 
-Keep the skill files, guide, template, and symlink in version control when committing this setup.
+Keep the skill files, guide, catalog, template, and symlink in version control when committing this setup.
 
 ## Official References
 

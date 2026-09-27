@@ -47,7 +47,7 @@ private/      Local-only private notes. Not committed to Git.
 
 Project skills work with Codex and Claude Code. Edit each skill once in `.claude/skills/`; Codex reads the same files through `.agents/skills`.
 
-See the [skill management guide](.claude/README.md) for available skills, examples, and how to add your own.
+See [SKILLS.md](SKILLS.md) for available skills and when to use each one. See the [skill management guide](.claude/README.md) to add or change a skill.
 
 ## Naming
 
