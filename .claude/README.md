@@ -14,6 +14,9 @@ Keep one copy of each skill and use it with Codex and Claude Code in this reposi
     SKILL.md
   add-note-image/
     SKILL.md
+  setup-learning-domain/
+    SKILL.md
+    scripts/ensure_domain.py
 .agents/skills -> ../.claude/skills
                                Codex reads the same directory.
 templates/agent-skill.md        Starter for a new skill.
@@ -31,6 +34,7 @@ The relative symlink works when the repository moves. Preserve it as a symlink w
 | [learning-tutor](skills/learning-tutor/SKILL.md) | Find a starting point, plan learning, and study through an adaptive conversation. |
 | [illustrate-note](skills/illustrate-note/SKILL.md) | Create a concept explainer, mechanism diagram, or mind map and add it to a note. |
 | [add-note-image](skills/add-note-image/SKILL.md) | Add an existing image, screenshot, or video frame to the right section of a note. |
+| [setup-learning-domain](skills/setup-learning-domain/SKILL.md) | Find or create the `knowledge/` domain folders for a new learning topic. |
 
 ## Use a Skill
 
@@ -46,6 +50,8 @@ Open this project in Codex or Claude Code, then include the skill name in your r
 | Claude Code | `/illustrate-note Make a mind map of engine oil and filter care.` |
 | Codex | `$add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
 | Claude Code | `/add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
+| Codex | `$setup-learning-domain I want to start learning cooking.` |
+| Claude Code | `/setup-learning-domain I want to start learning cooking.` |
 
 Both tools can also select a skill when its description matches your request. If a new or changed skill does not appear, restart the session from this repository.
 

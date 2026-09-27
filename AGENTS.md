@@ -65,7 +65,7 @@ Keep the depth proportional to the reader's needs. Combine or skip steps that ad
 - `business`
 - `cross-domain`
 
-Ask before creating a new top-level area unless the user clearly requests it.
+Ask before creating a new top-level area unless the user clearly requests it. When a new learning topic fits no existing domain, use the `setup-learning-domain` skill to create one under `knowledge/`.
 
 ## Metadata
 

@@ -9,6 +9,8 @@ Help the learner build understanding they can use and reason from independently.
 
 Read [AGENTS.md](../../../AGENTS.md) for project rules and explanation style. Use relevant notes, domain indexes, or supplied learning material when they help with the current topic.
 
+When the learner starts learning a new subject, use [setup-learning-domain](../setup-learning-domain/SKILL.md) to find or create its domain under `knowledge/`. Skip this for a quick question.
+
 ## Find The Starting Point
 
 - Use what the learner has already shared: their topic, goal, current understanding, and any available study time or deadline. Do not repeat questions they have answered.
