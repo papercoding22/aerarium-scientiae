@@ -10,6 +10,10 @@ Keep one copy of each skill and use it with Codex and Claude Code in this reposi
     SKILL.md
   learning-tutor/
     SKILL.md
+  illustrate-note/
+    SKILL.md
+  add-note-image/
+    SKILL.md
 .agents/skills -> ../.claude/skills
                                Codex reads the same directory.
 templates/agent-skill.md        Starter for a new skill.
@@ -25,6 +29,8 @@ The relative symlink works when the repository moves. Preserve it as a symlink w
 | --- | --- |
 | [manage-project-skills](skills/manage-project-skills/SKILL.md) | Create, update, or remove shared project skills. |
 | [learning-tutor](skills/learning-tutor/SKILL.md) | Find a starting point, plan learning, and study through an adaptive conversation. |
+| [illustrate-note](skills/illustrate-note/SKILL.md) | Create a concept explainer, mechanism diagram, or mind map and add it to a note. |
+| [add-note-image](skills/add-note-image/SKILL.md) | Add an existing image, screenshot, or video frame to the right section of a note. |
 
 ## Use a Skill
 
@@ -36,6 +42,10 @@ Open this project in Codex or Claude Code, then include the skill name in your r
 | Claude Code | `/manage-project-skills Create a skill for turning an article into a source note.` |
 | Codex | `$learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
 | Claude Code | `/learning-tutor Teach me how databases work. I know basic programming and have 20 minutes a day.` |
+| Codex | `$illustrate-note Draw how oil circulates through the engine in the engine oil note.` |
+| Claude Code | `/illustrate-note Make a mind map of engine oil and filter care.` |
+| Codex | `$add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
+| Claude Code | `/add-note-image ~/Downloads/filter-cutaway.jpg into the oil filter step of the engine oil note.` |
 
 Both tools can also select a skill when its description matches your request. If a new or changed skill does not appear, restart the session from this repository.
 
