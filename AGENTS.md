@@ -137,8 +137,9 @@ Do not remove these labels unless the note has been updated with better evidence
 
 ## Git Safety
 
-- Git username: `papercoding22`
-- Git email: `john.ly997@gmail.com`
+- Every commit in this project must use this author and committer identity. Do not use any other identity.
+  - Name: `papercoding22`
+  - Email: `john.ly997@gmail.com`
 - Do not commit `private/`.
 - Do not overwrite unrelated user changes.
 - Keep edits narrow and easy to review.
@@ -150,9 +151,13 @@ This is standing permission. After you add, change, move, or delete files for a 
 
 1. Finish the change set for the request first. Make one focused commit per completed request, not one per file.
 2. Run `git diff --check`, plus any checks the task or skill requires.
-3. Stage only the files you changed for this request, by path. Do not use `git add -A` or `git add .`. Include new assets together with the notes that link to them.
-4. Never stage `private/`, secrets, `.env` files, or unrelated user changes. If a file you edited already had uncommitted user changes, ask before committing it.
-5. Write a short, imperative commit message that says what changed, such as `Add engine oil mind map`. Add the attribution trailer your tool requires.
-6. Push the current branch to its upstream with `git push`. Never force-push, rewrite published history, or skip hooks.
-7. If the commit or push fails, stop and report the error. Do not resolve it with force, reset, or a destructive rebase. If the push is rejected because the remote has new commits, tell the user instead of merging on your own.
-8. Report the commit hash and whether the push succeeded.
+3. Verify the Git identity before every commit. Check it with `git config --local user.name`, `git config --local user.email`, and `git var GIT_AUTHOR_IDENT`.
+   - If the name or email is unset or different, set it for this repository only with `git config --local user.name papercoding22` and `git config --local user.email john.ly997@gmail.com`. Never change the global Git config, because it holds a different identity for other work.
+   - If `git var GIT_AUTHOR_IDENT` or `git var GIT_COMMITTER_IDENT` still shows another identity, for example because of `GIT_AUTHOR_*` or `GIT_COMMITTER_*` environment variables, do not commit. Report the problem to the user.
+   - Do not pass `--author` or `-c user.*` overrides.
+4. Stage only the files you changed for this request, by path. Do not use `git add -A` or `git add .`. Include new assets together with the notes that link to them.
+5. Never stage `private/`, secrets, `.env` files, or unrelated user changes. If a file you edited already had uncommitted user changes, ask before committing it.
+6. Write a short, imperative commit message that says what changed, such as `Add engine oil mind map`. Add the attribution trailer your tool requires.
+7. Push the current branch to its upstream with `git push`. Never force-push, rewrite published history, or skip hooks.
+8. If the commit or push fails, stop and report the error. Do not resolve it with force, reset, or a destructive rebase. If the push is rejected because the remote has new commits, tell the user instead of merging on your own.
+9. Report the commit hash and whether the push succeeded.
